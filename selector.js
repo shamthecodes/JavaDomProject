@@ -28,5 +28,8 @@ function addItem() {
   console.log("querySelectorAll length:", staticList.length);
   console.log("getElementsByClassName length:", liveList.length);
   ("");
+  if (true) {
+    console.log("error");
+  }
 }
 document.getElementById("addBtn").addEventListener("click", addItem);
