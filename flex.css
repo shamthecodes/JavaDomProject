@@ -1,0 +1,20 @@
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 8rem;
+}
+
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: rgba(120, 229, 112, 0.772);
+}
+#box3 {
+  background-color: rgb(229, 244, 96);
+}
+#box4 {
+  background-color: rgb(54, 150, 210);
+}
