@@ -1,3 +1,24 @@
+#container {
+  display: flex;
+  /* row-reverse ,row etc */
+  /* flex-direction: column-reverse; */
+  /*main x-axis Start,center,end,baseline,space-around,space-between,space-evenly  */
+  /* justify-content: start; */
+  border: 5px solid rgb(12, 12, 10);
+  height: 90vh;
+  /* main y-axis of the browser start,center,baseline,end(flex-start,flex-end) */
+  /* align-items: flex-start; */
+  /* warp is used freely the element used as wrap,wrap-reverse */
+  /* flex-wrap: wrap; */
+
+  /* warp is used along with the align-content; */
+  /* align-content:baseline,center,start,end,flex-start,flex-end,space-evenly,space-between; */
+  /* align-content: flex-start; */
+  /* gap: 23px; */
+  /* column-gap: ;
+  row-gap: ; */
+}
+
 .box {
   width: 150px;
   height: 150px;
@@ -8,6 +29,10 @@
 
 #box1 {
   background-color: red;
+
+  /* order: -1; */
+  /* single-element is to apply as cross assis (start,end,center)*/
+  /* align-self: center; */
 }
 #box2 {
   background-color: rgba(120, 229, 112, 0.772);
