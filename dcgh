@@ -1,0 +1,1754 @@
+
+
+
+COMPLETE DESIGN PROMPT (COPY READY)
+APP OVERVIEW
+A revolutionary mobile application that empowers women to discover, virtually try on, and receive fine jewelry within 20 minutes. GemMatch combines artificial intelligence for outfit matching, augmented reality for virtual try-on, and quick-commerce logistics with an uncompromising luxury aesthetic. The platform bridges the gap between high-end jewelry shopping and instant gratification.
+
+BRAND IDENTITY
+App Name: GemMatch
+Tagline: "Your perfect sparkle, delivered in minutes"
+Brand Essence: Where timeless elegance meets instant gratification
+
+Brand Personality:
+
+Sophisticated confidante
+
+Tech-enabled luxury
+
+Empowering and intuitive
+
+Trustworthy curator
+
+Modern heirloom creator
+
+COLOR SYSTEM
+Color Name	Hex Code	Usage
+Primary: Antique Rose Gold	#C27E7A	Primary buttons, key accents, logo gradient base
+Secondary: Liquid Champagne	#E8D0B3	Secondary elements, badges, hover states
+Accent: Petal Blush	#F8EDEA	Background highlights, cards, sections
+Background: Warm Ivory	#FCF8F3	Main app background
+Surface: Luminary White	#FFFFFF	Cards, modals, sheets, inputs
+Text Primary: Noir Intense	#1E1E1E	Headings, primary body text
+Text Secondary: Greige	#8A7F7D	Labels, hints, secondary information
+Success: Jade Mist	#3D6B5D	Delivery confirmed, in-stock
+Alert: Coral Ember	#E27A7A	Discount tags, limited stock
+Premium: 24k Gold	#D4AF37	VIP elements, loyalty badges
+Signature Gradients:
+
+Rose Gold Radiance: Linear Gradient (135°, #C27E7A 0%, #E0A39F 70%, #F2D2CF 100%)
+
+Champagne Shimmer: Linear Gradient (90°, #E8D0B3 0%, #F5E6D4 50%, #FFF4E8 100%)
+
+Blush Aurora: Radial Gradient (circle at top right, #F8EDEA 0%, #FCF8F3 100%)
+
+Golden Hour: Linear Gradient (180°, #FCF8F3 0%, #F8EDEA 50%, #F3E2DB 100%)
+
+Glassmorphism Recipe:
+
+Background: rgba(255, 249, 244, 0.6)
+
+Backdrop filter: blur(20px)
+
+Border: 1px solid rgba(232, 208, 179, 0.3)
+
+Shadow: 0 20px 40px rgba(0, 0, 0, 0.05), 0 8px 20px rgba(194, 126, 122, 0.1)
+
+TYPOGRAPHY SYSTEM
+Style	Font Family	Weight	Size (px)	Line Height	Letter Spacing	Usage
+Display 1	Playfair Display	700	40	1.1	-0.02em	Large hero text
+Display 2	Playfair Display	600	32	1.2	-0.01em	Screen titles
+Heading 1	Playfair Display	600	28	1.3	-0.01em	Section headers
+Heading 2	Playfair Display	600	24	1.3	0	Card titles
+Heading 3	Playfair Display	600	20	1.4	0	Product names
+Subheading	Inter	600	18	1.4	0.01em	Category names
+Body Large	Inter	400	16	1.5	0	Descriptive text
+Body Regular	Inter	400	14	1.5	0	General text
+Caption	Inter	400	12	1.4	0.02em	Meta information
+Button	Inter	600	16	1	0.02em	All buttons
+Price	Playfair Display	700	20	1.2	0	Pricing display
+Small Print	Inter	300	11	1.3	0.03em	Fine print, badges
+Font Pairing Rules:
+
+Headlines always in Playfair Display for luxury feel
+
+UI elements and body text in Inter for readability
+
+Never use more than 2 font weights in a single screen
+
+Price tags use Playfair for emphasis
+
+ICON SYSTEM
+Master Specifications:
+
+Style: Minimal line icons with rounded terminals
+
+Stroke weight: 1.8px consistent
+
+Size grid: 24x24px with 2px internal padding
+
+Corner radius: 2px on all corners
+
+Default color: Warm Gray (#8A7F7D)
+
+Active color: Antique Rose Gold (#C27E7A)
+
+Premium state: Liquid Champagne (#E8D0B3) with subtle glow
+
+Core Icon Library:
+
+Icon Name	Visual Description	Active State Treatment
+Home	Abstract house with diamond-shaped roof peak	Fill appears in roof
+Discover	Compass rose with gem-cut center	Needle turns rose gold
+AI Match	Sparkle emanating from camera outline	Sparkles animate
+Cart	Shopping bag with folded top, gem charm	Gem glows
+Profile	Feminine bust line art with necklace detail	Necklace highlights
+Search	Magnifying glass with diamond in lens	Diamond pulses
+Wishlist	Heart with angled top (diamond shape)	Soft fill animation
+AR Try-On	Eye with sparkle particles around	Sparkles orbit
+Delivery	Electric scooter with jewelry box on back	Box glows
+Store	Map pin with pavé cut gem top	Gem sparkles
+Flash Deal	Lightning bolt with diamond at tip	Bolt illuminates
+Coupon	Ticket with scalloped edge, gem perforation	Gem shines
+Camera	Vintage camera with lens ring detail	Ring animates
+360 View	Circular arrow around diamond	Diamond rotates
+Share	Three connected dots with sparkle	Sparkle expands
+Filter	Funnel with adjustable settings lines	Lines move
+Sort	Two lines with ascending/descending dots	Dots animate
+More	Three dots with subtle gem cut	Dots sparkle
+LOGO DESIGN SYSTEM
+Primary Logo - Horizontal Version:
+
+Icon Component:
+
+Abstract diamond/gemstone formed by 8 intersecting facets
+
+Facets create subtle heart shape when viewed closely
+
+Gradient: Antique Rose Gold (#C27E7A) to Liquid Champagne (#E8D0B3)
+
+Inner reflection line at 45 degrees in pure white with 40% opacity
+
+3 micro sparkles positioned at top right, bottom left, and center
+
+Text Component:
+
+"GemMatch" in Playfair Display 700
+
+Custom kerning: G+em, Mat+ch slightly kerned
+
+First "G" has subtle gem cut on crossbar
+
+"M" has extended serif that curves elegantly
+
+Gradient text: Charcoal Black (#1E1E1E) to Antique Rose Gold (#C27E7A) at 30% tint
+
+Sparkle Effect:
+
+5 micro dots in a constellation pattern above "a"
+
+Dots fade in and out in sequence (1-3-5-2-4)
+
+Opacity range: 0.3 to 1.0
+
+Secondary Logo - Icon Only:
+
+Gemstone symbol on its own
+
+Used for app icon, favicon, navigation
+
+Size variants: 24px, 40px, 60px, 120px
+
+App Icon Design:
+
+Background: Rose Gold Radiance gradient (radial)
+
+Gem symbol in Luminary White with subtle inner shadow
+
+Facets catch light effect (angled highlight)
+
+Square with 28px corner radius (soft square)
+
+Depth: subtle inner shadow creates depth
+
+No text, pure symbol recognition
+
+Alternative: Liquid Champagne background with Antique Rose Gold symbol
+
+Monogram Logo:
+
+"GM" intertwined
+
+G forms partial circle, M forms diamond within
+
+Used for favicon, loading states, profile default
+
+Animation Specifications:
+
+Loading state: Gem pulses with sparkle rotation
+
+Transition: Gem facets shift light angle
+
+Success: Gem shoots sparkle trail
+
+IMAGERY & PHOTOGRAPHY STYLE
+Product Photography Guidelines:
+
+Macro Jewelry Shots:
+
+Extreme close-ups showing diamond facets, metal texture
+
+Depth of field: sharp focus on gem, creamy bokeh background
+
+Lighting: Softbox with subtle catch lights in gems
+
+Reflections: Use black card technique for edge definition
+
+Backgrounds: Blush pink silk, champagne satin, ivory velvet
+
+Angles: 45-degree hero shot, top-down flat lay, model ear close-up
+
+Lifestyle Imagery:
+
+Women aged 25-55 in aspirational settings
+
+Diversity: skin tones, ethnicities, ages, styles
+
+Settings: Rooftop cocktail parties, coffee shops, office meetings, date nights
+
+Lighting: Golden hour (sunset glow), soft window light, candlelit dinners
+
+Expressions: Confident smiles, candid laughter, admiring self in mirror
+
+Styling: Complementing outfits, not overpowering
+
+UI Illustrations:
+
+Custom vector illustrations in limited palette
+
+Style: Abstract line art with rose gold accents
+
+Subjects: Women with jewelry, AR experiences, delivery moments
+
+Technique: Negative space usage, minimal details
+
+Image Treatment:
+
+Subtle warm tone overlay (#FCF8F3 blend)
+
+Slight desaturation on backgrounds, jewel tones enhanced
+
+Vignette effect on product cards (10% dark edge)
+
+Soft glow on metallic elements
+
+UI COMPONENT LIBRARY
+Cards & Containers:
+
+Standard Product Card:
+
+Dimensions: 168px width × 240px height (flexible)
+
+Background: Luminary White
+
+Border radius: 24px
+
+Shadow: 0 8px 24px rgba(0, 0, 0, 0.04)
+
+Image area: 168px × 168px, object-fit cover
+
+Padding: 12px
+
+Hover state: Shadow increases to 0 16px 32px rgba(194, 126, 122, 0.12), scale 1.02
+
+Featured Card (Hero Banner):
+
+Border radius: 32px
+
+Gradient background
+
+Shadow: 0 20px 40px rgba(0, 0, 0, 0.08)
+
+Inner glow: 0 inset 0 0 0 1px rgba(232, 208, 179, 0.3)
+
+Glassmorphism Card:
+
+Background: rgba(255, 249, 244, 0.4)
+
+Backdrop filter: blur(12px)
+
+Border: 0.5px solid rgba(232, 208, 179, 0.3)
+
+Border radius: 28px
+
+Buttons:
+
+Primary Button:
+
+Height: 56px
+
+Padding horizontal: 24px
+
+Background: Rose Gold Radiance gradient
+
+Border radius: 32px
+
+Text: Inter 600, 16px, Luminary White
+
+Shadow: 0 8px 16px rgba(194, 126, 122, 0.2)
+
+Active state: Scale 0.98, shadow reduced
+
+Secondary Button:
+
+Height: 56px
+
+Background: Transparent
+
+Border: 1.5px solid #E8D0B3
+
+Border radius: 32px
+
+Text: Antique Rose Gold
+
+Active state: Background rgba(232, 208, 179, 0.1)
+
+Tertiary Button (Ghost):
+
+No background, no border
+
+Text: Antique Rose Gold
+
+Padding: 16px
+
+Active state: Opacity 0.7
+
+Icon Button:
+
+48px × 48px circle
+
+Background: rgba(255, 255, 255, 0.8) with blur
+
+Border: 0.5px solid rgba(232, 208, 179, 0.3)
+
+Shadow: 0 4px 12px rgba(0, 0, 0, 0.02)
+
+Input Fields:
+
+Text Input:
+
+Height: 56px
+
+Background: Luminary White
+
+Border radius: 20px
+
+Border: 1px solid #F0E4DC
+
+Focus border: 1.5px solid #C27E7A
+
+Padding: 0 20px
+
+Placeholder: Inter 400, 16px, #B5A9A6
+
+Search Bar:
+
+Height: 56px
+
+Background: Luminary White
+
+Border radius: 32px
+
+Shadow: 0 8px 20px rgba(0, 0, 0, 0.02)
+
+Icon padding left: 20px
+
+Clear button: right 16px
+
+OTP Input:
+
+6 fields, 56px × 56px each
+
+Border radius: 16px
+
+Text center aligned
+
+Active state: Champagne Gold border
+
+Badges & Tags:
+
+Delivery Badge:
+
+Background: Jade Mist with 10% opacity
+
+Border radius: 30px
+
+Padding: 6px 12px
+
+Icon: Delivery icon 14px
+
+Text: "20 min" Inter 600 12px #3D6B5D
+
+Discount Badge:
+
+Background: Coral Ember
+
+Border radius: 30px
+
+Padding: 6px 12px
+
+Text: "-40%" Inter 700 12px White
+
+Trending Badge:
+
+Background: Rose Gold Radiance gradient
+
+Border radius: 30px
+
+Padding: 6px 12px
+
+Icon: Fire icon 12px
+
+Text: "Trending" Inter 600 12px White
+
+AR Available Badge:
+
+Background: Linear gradient (135°, #9B6B9B, #C27E7A)
+
+Border radius: 30px
+
+Padding: 6px 12px
+
+Icon: AR icon 12px
+
+Text: "Try On" Inter 600 12px White
+
+Navigation:
+
+Bottom Navigation Bar:
+
+Height: 72px
+
+Background: Glassmorphism (blur 20px)
+
+Top border: none
+
+Shadow: 0 -4px 20px rgba(0, 0, 0, 0.02)
+
+Icons: 5 icons evenly spaced
+
+Active indicator: 4px dot above icon in Antique Rose Gold
+
+Label: Hidden (icon only)
+
+Top Navigation:
+
+Status bar integrated
+
+Title: Playfair 600 20px centered or left aligned
+
+Right actions: maximum 2 icons
+
+Back button: Always present when needed
+
+COMPLETE APP FLOW (15 SCREENS)
+1. SPLASH SCREEN
+Visual Composition:
+
+Full-screen gradient: Blush Aurora radial gradient starting from top right
+
+*Center Stage (0-1.5 seconds):*
+
+GemMatch logo icon (gemstone) at 120px size
+
+Gradient: Rose Gold Radiance
+
+Inner sparkle animation: 3 dots circling the gem
+
+*Center Stage (1.5-2.5 seconds):*
+
+Gem fades slightly
+
+Text fades in below: "GemMatch" Playfair 700 40px #1E1E1E
+
+Below text: "Your perfect sparkle, delivered in minutes" Inter 400 16px #8A7F7D
+
+Sparkle constellation animates above text
+
+Bottom (persistent):
+
+Three subtle dots in Warm Gray
+
+Middle dot pulses in Antique Rose Gold
+
+"v1.0.0" ultra light 10px #D4C9C5
+
+Animation Sequence:
+
+Gem appears with scale 0.8 → 1.0 (spring animation)
+
+Facets light sweeps from left to right
+
+Sparkle dots appear sequentially
+
+Text fades in with 0.3s delay each line
+
+Loading dots animate continuously
+
+3-second total duration before auto-transition to onboarding
+
+2. ONBOARDING (3 SCREENS)
+Container Specifications:
+
+Full screen swipeable
+
+Background: Warm Ivory
+
+Bottom progress indicators: 3 dots, 8px each, active 24px width
+
+Screen 1: AI Outfit Match
+
+Illustration:
+
+Style: Abstract line art with rose gold accents
+
+Woman in simple dress silhouette taking phone selfie
+
+Phone screen shows outfit with floating jewelry pieces around it
+
+Color palette: Blush, Champagne, Charcoal
+
+Typography:
+
+Headline: "Snap your outfit, find your sparkle" Playfair 600 28px #1E1E1E
+
+Subtext: "Our AI analyzes colors, necklines, and style to suggest jewelry that completes your look" Inter 400 16px #8A7F7D lines 1.5
+
+Interactive Element:
+
+Animated camera shutter button
+
+On tap (demo): transitions to next screen
+
+Screen 2: AR Virtual Try-On
+
+Illustration:
+
+Abstract face outline with earrings floating near ears
+
+Ring floating above finger
+
+Necklace tracing neckline
+
+AR frame corners around face
+
+Typography:
+
+Headline: "See it on you before you buy" Playfair 600 28px
+
+Subtext: "Try on earrings, rings, and necklaces in real-time with our AR technology" Inter 400 16px
+
+Interactive Element:
+
+Animated eye icon with sparkle
+
+Screen 3: 20-Minute Delivery
+
+Illustration:
+
+Elegant delivery scooter with jewelry box on back
+
+Timer icon showing 20:00
+
+Map route line from store to home
+
+Sparkle trail behind scooter
+
+Typography:
+
+Headline: "Sparkle arrives in minutes" Playfair 600 28px
+
+Subtext: "Order now and get your jewelry delivered in just 20 minutes, guaranteed" Inter 400 16px
+
+Interactive Element:
+
+Animated timer counting down 20:00 → 19:59
+
+CTA Button:
+
+"Get Started" Primary button full width with 24px margin
+
+On last screen only
+
+3. LOGIN / SIGNUP
+Layout Architecture:
+
+Full screen with Golden Hour gradient background
+
+Top (20% of screen):
+
+GemMatch icon (60px) centered
+
+"Welcome to GemMatch" Playfair 600 28px #1E1E1E
+
+"Sign in to continue" Inter 400 16px #8A7F7D
+
+Middle (60% of screen):
+
+Primary login options stacked with 16px gap
+
+Option 1: Continue with Phone
+
+Primary button style
+
+Icon: Phone outline
+
+Text: "Continue with Phone"
+
+Option 2: Continue with Google
+
+White card style
+
+Icon: Google G
+
+Text: "Google"
+
+Option 3: Continue with Apple
+
+White card style
+
+Icon: Apple logo
+
+Text: "Apple"
+
+Option 4: Continue with Email
+
+Ghost button style
+
+Text: "Sign in with Email"
+
+Bottom (20% of screen):
+
+"New to GemMatch? Create Account" Inter 500 14px #C27E7A
+
+Terms text: "By continuing, you agree to our Terms of Service and Privacy Policy" Inter 400 11px #8A7F7D
+
+Phone OTP Flow (Modal):
+
+Step 1: Phone Entry
+
+"Enter your mobile number" Inter 600 16px
+
+Country code dropdown with flag
+
+Phone number input field
+
+"Send Code" primary button (disabled until 10 digits)
+
+"Back to login" link
+
+Step 2: OTP Verification
+
+"Enter 6-digit code sent to +91 98765 43210"
+
+6 OTP input boxes
+
+Resend code: "Resend in 30s" or "Resend now"
+
+"Verify" primary button (enabled after 6 digits)
+
+Auto-read SMS enabled
+
+4. HOME SCREEN
+Layout Structure:
+
+Status Bar:
+
+Time, signal, battery in #1E1E1E
+
+Background transparent
+
+Header Section:
+
+text
+| Greeting: "Good evening, Priya" - Playfair 600 20px
+| Icons: Wishlist (heart), Notification (bell) - 24px
+Search Bar:
+
+Magnifying glass icon (left)
+
+"Search for jewelry, brands, or style..." placeholder
+
+Microphone icon (right)
+
+Background: Luminary White
+
+Border radius: 32px
+
+Shadow: 0 8px 20px rgba(0,0,0,0.02)
+
+Hero Banner Carousel:
+
+Height: 180px
+
+Horizontal paging with snap
+
+3 banners:
+
+Banner 1 (Flash Sale):
+
+Background: Rose Gold Radiance gradient
+
+Left content: "Flash Sale" Inter 700 14px white
+
+"Up to 40% off" Playfair 700 24px white
+
+"Shop Now →" Inter 600 14px white
+
+Right: Abstract diamond illustration
+
+Banner 2 (New Arrivals):
+
+Background: Liquid Champagne
+
+"Festival Collection" in #1E1E1E
+
+"Just arrived" in #C27E7A
+
+*Banner 3 (20-Min Delivery):*
+
+Background: Jade Mist gradient
+
+"20-minute delivery" in white
+
+"On all bestsellers" in white
+
+Categories Scroll:
+
+"Categories" header with "See All"
+
+Horizontal scroll (no snap)
+
+8 category pills with icons:
+
+Earrings (stud icon)
+
+Necklaces (pendant icon)
+
+Rings (band icon)
+
+Bracelets (chain icon)
+
+Bridal (bride icon)
+
+Mangalsutra (sacred thread)
+
+Nose pins (nose stud)
+
+Watches (watch icon)
+
+Flash Deals Section:
+
+Header: "Flash Deals ⚡" + "View All"
+
+Timer pill: "Ends in 02:15:30" with clock icon
+
+Horizontal product scroll (1.5 cards visible)
+
+Each card: Image, name, price, original price, discount %
+
+Trending Now Section:
+
+Header: "Trending Now 🔥" + "View All"
+
+2-column grid (first 4 products)
+
+Masonry layout (alternating heights)
+
+Each card: Image, wishlist icon, name, price, rating
+
+Coupon Banner:
+
+Glassmorphism card
+
+Champagne Shimmer border
+
+Content: "WELCOME500 - Get ₹500 off"
+
+"First order only" caption
+
+Copy code button (ghost button style)
+
+*20-Minute Delivery Promise:*
+
+Floating pill at bottom: "✓ 20-min delivery guaranteed" with info icon
+
+5. AI OUTFIT MATCHING SCREEN (StyleMatch AI)
+Screen Title: StyleMatch AI
+
+Header:
+
+Back arrow + "StyleMatch AI" Playfair 600 24px + Info icon
+
+Upload Section:
+
+State 1: No Image
+
+Large camera rectangle (border radius 32px, dashed border #E8D0B3)
+
+Camera icon 48px
+
+"Upload outfit photo" Inter 500 16px #8A7F7D
+
+"Tap to browse or drag image" caption
+
+Below: Sample thumbnails (3 small circles with outfit previews)
+
+State 2: Image Uploaded
+
+Uploaded image in rectangle with overlay gradient
+
+"Analyzing outfit..." loading state with sparkle animation
+
+2-second analysis time
+
+After Analysis:
+
+Color Palette Extracted:
+
+"Your outfit colors" header
+
+5 color swatches with hex codes
+
+Dominant color highlighted
+
+Style Detection:
+
+Occasion chips: "Casial" (editable), "Day", "Summer"
+
+Neckline detection: "V-Neck"
+
+Sleeve: "Sleeveless"
+
+AI Recommendations Header:
+
+"Perfect matches for you" + filter icon
+
+Filter options: Metal, Stone, Price, Occasion
+
+Recommendations Grid:
+
+2 columns
+
+Each card: Product image, match percentage (95% match), name, price, quick add
+
+Match Explanation:
+
+"Why this match: Complements your navy blue dress, V-neck suits pendant"
+
+"Metal suggestion: Rose Gold recommended"
+
+Save Look Option:
+
+"Save this outfit match" ghost button with heart icon
+
+6. PRODUCT DISCOVERY SCREEN
+Screen Title: Discover
+
+Header:
+
+"Discover" Playfair 600 28px + Filter icon + Sort icon
+
+Category Pills:
+
+Horizontal scroll, no snap
+
+Active pill: Rose Gold gradient, white text
+
+Inactive: Light gray background, #8A7F7D
+
+Categories: All (active), Earrings, Necklaces, Rings, Bracelets, Bridal, New, Trending, Offers
+
+Active Filters Bar (when applied):
+
+Scrollable chips: "Gold" ×, "Under ₹5000" ×, "Studs" ×, "Clear all"
+
+Product Grid:
+
+2 columns, staggered layout
+
+Infinite scroll (loads 8 products at a time)
+
+Each card:
+
+Image area (1:1 ratio)
+
+Badges overlay (top left): 20-min, Trending, Limited, AR Try-On
+
+Wishlist icon (top right): outline heart
+
+Product name: Inter 600 14px #1E1E1E (1 line)
+
+Description: Inter 400 12px #8A7F7D (1 line, optional)
+
+Price: Playfair 700 18px #C27E7A
+
+Original price: Inter 400 12px #8A7F7D strikethrough (if discounted)
+
+Rating: Stars 4.2 (12) in Inter 400 12px
+
+Quick add: + icon button (circle)
+
+Sort Options Modal:
+
+Bottom sheet
+
+Options: Recommended, Price Low to High, Price High to Low, Newest, Popularity
+
+Selected option has checkmark in Rose Gold
+
+7. PRODUCT DETAIL SCREEN
+Layout Structure:
+
+Image Gallery:
+
+Height: 400px
+
+Main image with pinch to zoom
+
+Left/right arrows for navigation
+
+360° view icon (top right of image)
+
+AR Try-On button (floating, bottom left of image)
+
+Image Thumbnails:
+
+Horizontal scroll below main image
+
+4 thumbnails (60x60px, border radius 12px)
+
+Active thumbnail has Rose Gold border
+
+Product Info:
+
+Category: "Earrings > Studs" breadcrumb Inter 400 12px #8A7F7D
+
+Name: "Diamond Solitaire Studs (1 ct)" Playfair 600 24px #1E1E1E
+
+Rating: 4.8 (120 reviews) with stars
+
+Price section:
+
+Current: ₹1,24,999 Playfair 700 28px #C27E7A
+
+Original: ₹1,59,999 Inter 400 16px #8A7F7D strikethrough
+
+Discount: "22% off" badge
+
+Tax info: "Inclusive of all taxes" Inter 400 12px #8A7F7D
+
+Delivery Info:
+
+Card with scooter icon
+
+"20-minute delivery guaranteed" Inter 600 16px #3D6B5D
+
+"Order within 12 minutes to get it by 8:30 PM" Inter 400 14px #8A7F7D
+
+Change address link
+
+Variant Selector:
+
+Metal: Rose Gold (selected), Yellow Gold, White Gold (chip style)
+
+Stone: Diamond, Emerald, Sapphire
+
+Carat: 0.5ct, 1ct, 1.5ct
+
+Product Details Accordion:
+
+Description: Expandable section
+
+Material: 18K Gold, Diamond clarity VS1
+
+Care Instructions: Avoid water, store in box
+
+Returns: 7-day return policy
+
+Reviews Section:
+
+Summary: 4.8 average, 120 reviews
+
+Rating breakdown bars
+
+3 sample reviews with photos
+
+Similar Products:
+
+Horizontal scroll of 6 items
+
+"More like this" header
+
+Action Buttons:
+
+Add to Wishlist (heart icon button, 56px)
+
+Add to Cart (primary button, flexible)
+
+Buy Now (secondary button, flexible)
+
+8. AR VIRTUAL TRY-ON (Try-On Studio)
+Screen Title: Try-On Studio
+
+Camera View:
+
+Full-screen camera feed
+
+Face detection overlay (wireframe guide for earrings/necklace)
+
+Hand detection overlay (circle for ring placement)
+
+Real-time tracking with 60fps
+
+Top Controls:
+
+Close/X button (top left)
+
+"Try-On Studio" title (center)
+
+Flip camera, Flash toggle, Help (top right)
+
+Bottom Sheet (Collapsible):
+
+Handle bar with "Select jewelry to try"
+
+Category pills: Earrings, Necklaces, Rings, All
+
+Horizontal product scroll (small thumbnails)
+
+Selected product highlighted with Rose Gold border
+
+Active Try-On:
+
+Selected jewelry appears on face/hand
+
+Size slider to adjust
+
+Rotation handle (for rings)
+
+Brightness/contrast adjustment
+
+Capture Options:
+
+Shutter button (large circle)
+
+Record video button (optional)
+
+Share button
+
+Save to try-on history
+
+Product Card Overlay:
+
+Semi-transparent card at bottom
+
+Product name, price
+
+"Add to Cart" button
+
+"View Details" link
+
+Instructions Overlay (first time):
+
+"Position face in oval"
+
+"Tap to place ring on finger"
+
+"Pinch to resize"
+
+9. NEARBY STORE MAP
+Screen Title: GemMatch Stores Near You
+
+Map View:
+
+Full-screen interactive map (Google Maps/Mapbox)
+
+Store pins: Custom gem icons in Rose Gold
+
+User location: Blue dot with accuracy circle
+
+Clusters: Numbered circles when zoomed out
+
+Top Bar:
+
+Back arrow + "Nearby Stores" + Filter icon
+
+Search bar: "Search for stores..." (collapsed)
+
+Filter Options:
+
+Bottom sheet with: Open now, 20-min delivery, Pickup available, Rating 4+
+
+Bottom Sheet (50% expanded):
+
+Header: "15 stores near you" + chevron
+
+List view of stores:
+
+Store Card:
+
+Store name: "Tanishq - Bandra" Inter 600 16px
+
+Distance: "0.8 km" with location icon
+
+Delivery: "20-min delivery ✓" or "Pickup available"
+
+Timings: "Open until 9:30 PM"
+
+Rating: 4.5 (200+ reviews)
+
+Action: "View store" ghost button
+
+Selected Store Detail (full screen):
+
+Store images gallery
+
+Store name, address, phone
+
+Opening hours (today's hours highlighted)
+
+Services: Delivery, Pickup, Try-On available
+
+Available collections in store
+
+"Navigate" button (primary)
+
+"Call store" button (secondary)
+
+"Order for pickup" button (secondary)
+
+10. CART SCREEN
+Screen Title: My Cart
+
+Header:
+
+Back arrow + "My Cart" + "3 items"
+
+Cart Items List:
+
+Item Card 1:
+
+Image thumbnail (80x80px, border radius 16px)
+
+Details: "Diamond Studs" Inter 600 16px
+
+Variant: "Rose Gold, 1ct" Inter 400 14px #8A7F7D
+
+Price: ₹1,24,999
+
+Quantity selector: - 1 + (rounded rectangle)
+
+Remove icon (trash)
+
+Delivery: "Arrives in 20 min" green text
+
+Item Card 2: (similar)
+Item Card 3: (similar)
+
+Savings Summary:
+
+Card with green background (#3D6B5D 10%)
+
+"You're saving ₹35,000 on this order" with smile icon
+
+Coupon Section:
+
+"Apply Coupon" row with chevron right
+
+If applied: "WELCOME10 applied -10%" with remove link
+
+Price Breakdown:
+
+Subtotal: ₹2,49,999
+
+Delivery: Free (or ₹100 if applicable)
+
+Discount: -₹35,000
+
+Taxes: ₹4,500
+
+Total: ₹2,19,499 (Playfair 700 24px #C27E7A)
+
+Action Buttons:
+
+"Proceed to Checkout" primary button
+
+"Continue Shopping" text link
+
+Empty Cart State:
+
+Illustration: Empty jewelry box
+
+"Your cart is empty" Playfair 600 20px
+
+"Discover jewelry that matches your style" Inter 400 16px
+
+"Discover Now" primary button
+
+11. CHECKOUT SCREEN
+Screen Title: Checkout
+
+Progress Tracker:
+
+Cart ✓ → Address → Payment → Confirmed
+
+Delivery Address Section:
+
+Saved Address Card (selected):
+
+"Home" label with house icon
+
+"Priya Sharma, +91 98765 43210"
+
+"42, Pali Hill, Bandra West, Mumbai - 400050"
+
+"20-min delivery to this address ✓" green highlight
+
+Change link
+
+Add New Address:
+
+Add new address link
+
+Payment Options:
+
+Section Header: "Select Payment Method"
+
+*Option 1: Credit/Debit Card*
+
+Card icons (Visa, Mastercard, RuPay, Amex)
+
+"Add new card" or saved cards list
+
+Option 2: UPI
+
+Apps: Google Pay, PhonePe, Paytm, BHIM
+
+"Enter UPI ID" field
+
+Option 3: Net Banking
+
+Popular banks list
+
+Option 4: GemMatch Wallet
+
+Balance: ₹2,500 available
+
+Use wallet toggle
+
+Option 5: Cash on Delivery
+
+Available for orders under ₹50,000
+
+Order Summary (Collapsible):
+
+Shows item count and total
+
+Coupon Apply:
+
+Field with "Apply" button
+
+Final Total:
+
+Grand Total: ₹2,19,499 Playfair 700 28px
+
+Place Order Button:
+
+"Place Order · ₹2,19,499" primary button
+
+Security Badge:
+
+"100% secure payment. Encrypted transaction" with lock
+
+12. COUPON & DISCOUNT SCREEN
+Screen Title: Offers & Coupons
+
+Header:
+
+Back arrow + "Offers & Coupons" + "History" tab
+
+Tabs:
+
+Available (active) | Expired/Used
+
+Available Offers:
+
+Banner Offer:
+
+Champagne Shimmer gradient
+
+"Festive Sale! Up to 40% off on bridal collection"
+
+"Shop Now →" link
+
+Coupon Cards:
+
+Card 1: WELCOME10
+
+Code: "WELCOME10" in monospace with copy icon
+
+Description: "10% off on your first order"
+
+Validity: "Valid until 31 Dec 2024"
+
+Min order: "Min. order ₹1,000"
+
+"Apply" button
+
+Card 2: FESTIVE20
+
+Code: "FESTIVE20"
+
+Description: "20% off on orders above ₹5,000"
+
+Validity: "Valid until 31 Dec 2024"
+
+Exclusions: "On selected brands"
+
+"Apply" button
+
+Card 3: BRIDE25
+
+Code: "BRIDE25"
+
+Description: "25% off on bridal collection"
+
+Special: "Exclusive for bride-to-be"
+
+"Verify & Apply" button
+
+Card 4: GOLD50
+
+Code: "GOLD50"
+
+Description: "₹50 off on gold coins"
+
+"Apply" button
+
+Your Savings:
+
+"You've saved ₹8,450 this month" with progress bar
+
+"Next milestone: ₹10, savings = Gold tier"
+
+Referral Section:
+
+"Refer a friend, get ₹200 off"
+
+Share code: "GEM123"
+
+Share buttons: WhatsApp, Messages, Copy
+
+13. ORDER TRACKING
+Screen Title: Track Your Sparkle
+
+Header:
+
+Back arrow + "Order #GM12345" + Help icon
+
+Map View:
+
+Height: 300px
+
+Live map with route from store to home
+
+Animated scooter moving along route
+
+Store pin (gem icon)
+
+Home pin (home icon)
+
+Estimated time: "8 min remaining"
+
+Order Status Timeline:
+
+Step 1: Order Placed
+
+Time: 8:30 PM
+
+Status: Completed ✓
+
+Description: "Your order has been placed"
+
+Step 2: Order Confirmed
+
+Time: 8:31 PM
+
+Status: Completed ✓
+
+Description: "Store has accepted your order"
+
+Step 3: Picked by Rider
+
+Time: 8:35 PM
+
+Status: In progress (current)
+
+Description: "Priya has picked up your order"
+
+Rider photo, name, contact button
+
+Step 4: Out for Delivery
+
+Time: --
+
+Status: Pending
+
+Description: "Rider is on the way"
+
+Step 5: Delivered
+
+Time: --
+
+Status: Pending
+
+Description: "Your sparkle has arrived"
+
+Delivery Partner Card:
+
+Rider: "Priya K." with photo
+
+Vehicle: "Electric Scooter · MH 01 AB 1234"
+
+Contact: Call and Message buttons
+
+Live location sharing indicator
+
+Estimated Arrival:
+
+Large timer: "8 min remaining"
+
+"Live location shared with rider"
+
+Help Options:
+
+"Call Support" (secondary)
+
+"Cancel Order" (ghost, only within 2 min)
+
+Delivery Complete State:
+
+Confetti animation
+
+"Your sparkle has arrived! ✨"
+
+"Rate your experience" 5 stars
+
+"Reorder" button
+
+14. WISHLIST SCREEN
+Screen Title: My Wishlist
+
+Header:
+
+Back arrow + "My Wishlist" + "Edit" (if needed)
+
+Tabs:
+
+Saved Jewelry (active) | Saved Outfits
+
+Saved Jewelry Grid:
+
+2 columns
+
+Each card:
+
+Product image
+
+Wishlist heart filled (remove option)
+
+Badges if any (20-min, Trending)
+
+Product name
+
+Price
+
+"Move to cart" button (small)
+
+If Empty:
+
+Illustration: Heart with sparkle
+
+"Your wishlist is empty"
+
+"Save items you love here"
+
+"Discover Jewelry" button
+
+Saved Outfits Tab:
+
+Grid of outfit photos with jewelry overlay
+
+Each card:
+
+Outfit image thumbnail
+
+Number of jewelry items matched
+
+"View match" button
+
+Delete option
+
+Edit Mode:
+
+Delete icons appear
+
+"Select all" option
+
+"Delete selected" button
+
+15. PROFILE SCREEN
+Screen Title: Profile
+
+Header:
+
+Back arrow + "Profile" + Settings icon
+
+Profile Info Card:
+
+Avatar (initial or photo)
+
+Name: "Priya Sharma"
+
+Email: "priya.s@email.com"
+
+Phone: "+91 98765 43210"
+
+"Edit Profile" link
+
+Stats Cards:
+
+3 horizontal cards:
+
+Orders: 24
+
+Wishlist: 18 items
+
+Saved outfits: 7
+
+Menu Sections:
+
+Section 1: Account
+
+My Orders (with chevron)
+
+Saved Outfits
+
+Address Book
+
+Payment Methods
+
+GemMatch Wallet (Balance: ₹2,500)
+
+Section 2: Preferences
+
+Notification Settings
+
+Language (English/Hindi)
+
+Dark Mode toggle
+
+App Preferences
+
+Section 3: Support
+
+Help Center
+
+Chat with Us
+
+Call Support
+
+FAQs
+
+Section 4: Legal
+
+Terms of Service
+
+Privacy Policy
+
+About GemMatch
+
+App Version: v1.0.0
+
+Logout Button:
+
+"Log Out" ghost button centered
+
+ANIMATION & MICRO-INTERACTIONS
+System-wide Animations:
+
+Page Transitions:
+
+iOS-style push from right
+
+Modal: bottom sheet slide up
+
+Duration: 0.3s, easing: ease-out
+
+Micro-interactions:
+
+Wishlist Heart:
+
+Tap: Heart fills with Rose Gold, subtle scale 0.9→1.0
+
+Sparkle particle bursts from heart
+
+Add to Cart:
+
+Button morphs to checkmark
+
+Item flies to cart icon with trail
+
+AR Try-On:
+
+Sparkle effect when jewelry first appears
+
+Smooth tracking with 60fps
+
+Loading States:
+
+GemMatch logo spins slowly
+
+Sparkle dots orbit around gem
+
+Pull to Refresh:
+
+Gem icon appears
+
+Fills with gradient as you pull
+
+Releases with sparkle burst
+
+Button Press:
+
+Scale 0.97
+
+Ripple effect in lighter shade
+
+Success State:
+
+Checkmark draws with stroke animation
+
+Confetti for order completion
+
+Card Hover (non-touch):
+
+Subtle scale 1.02
+
+Shadow deepens
+
+Border shows Champagne shimmer
+
+INTERACTION PATTERNS
+Gestures:
+
+Swipe left on cart item: Reveal delete option
+
+Swipe right from left edge: Go back
+
+Double tap on product image: Add to wishlist
+
+Long press on product: Quick preview
+
+Pinch on product image: Zoom
+
+Swipe up on bottom sheet: Expand
+
+Swipe down on modal: Dismiss
+
+Haptic Feedback:
+
+Light impact: Button taps, selection
+
+Medium impact: Add to cart, wishlist
+
+Heavy impact: Order placed, payment success
+
+Notification success: Order confirmed
+
+COPYWRITING GUIDE
+Tone of Voice:
+
+Elegant but not pretentious
+
+Warm and welcoming
+
+Concise and clear
+
+Empowering and confident
+
+Example Phrases:
+
+Welcome:
+
+"Welcome back to GemMatch"
+
+"Ready to find your sparkle?"
+
+Empty States:
+
+"Your wishlist is waiting to be filled"
+
+"No orders yet? Time to treat yourself"
+
+"Your cart is feeling lonely"
+
+Success:
+
+"Your sparkle is on its way!"
+
+"Order confirmed! Get ready to shine"
+
+"Payment successful. Happiness incoming"
+
+Error:
+
+"Something went wrong. Let's try again"
+
+"Network error. Please check connection"
+
+Notifications:
+
+"Your order is 5 minutes away! ✨"
+
+"New styles just dropped for you"
+
+"Sale alert: Your wishlist item is now 20% off"
+
+ACCESSIBILITY SPECIFICATIONS
+Minimum touch target: 48px
+
+Color contrast: All text meets WCAG AA
+
+Dynamic type support
+
+VoiceOver labels for all elements
+
+Reduced motion option available
+
+High contrast mode support
+
+TECHNICAL CONSIDERATIONS
+iOS and Android native design systems respected
+
+Safe area insets for notches
+
+Edge-to-edge display support
+
+Dark mode alternative palette (optional)
+
+Offline mode for wishlist and saved outfits
+
+Deep linking support for products
+
