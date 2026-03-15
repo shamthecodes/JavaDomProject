@@ -32,13 +32,25 @@ body {
     color: rgb(233, 103, 103);
     margin: 20px;
   }
-  button {
+  #addbtn {
     color: #fff;
     background-color: rgb(90, 164, 255);
     border: none;
     padding: 12px 15px;
-    border-radius: 50px;
+    border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
+  }
+
+  #remove {
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(197, 197, 197);
+    margin-right: 20px;
   }
 }
 #img-card {
