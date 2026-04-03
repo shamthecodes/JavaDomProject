@@ -122,3 +122,158 @@
 // }
 
 // console.log(FreqSortElem([1, 2, 2, 2, 3, 3, 5]));
+
+// function evenOddindex(arr) {
+//   let even = [];
+//   let odd = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 == 0) {
+//       even.push(arr[i]);
+//     } else odd.push(arr[i]);
+//   }
+
+//   even.sort((a, b) => {
+//     b - a;
+//   });
+
+//   odd.sort((a, b) => {
+//     a - b;
+//   });
+
+//   let e = 0,
+//     o = 0;
+//   for (let j = 0; j < arr.length; j++) {
+//     if (j % 2 == 0) {
+//       arr[j] = even[e++];
+//     } else arr[j] = odd[o++];
+//     return arr;
+//   }
+// }
+// console.log(evenOddindex([1, 2, 3, 5, 4, 9]));
+
+// function Oddindex(arr) {
+//   let odd = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 !== 0) {
+//       odd.push(arr[i]);
+//     }
+//   }
+
+//   odd.sort((a, b) => a - b);
+
+//   let o = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 !== 0) {
+//       arr[i] = odd[o++];
+//     }
+//   }
+//   return arr;
+// }
+// console.log(Oddindex([9, 4, 7, 2, 5, 1]));
+
+// let names = {
+//   f: "sham",
+//   l: "sundar",
+// };
+
+// let pr = function (state, city) {
+//   console.log(this.f + this.l + state + city);
+// };
+
+// pr.apply(names, ["kar", "bang"]);
+
+// let mutiple = function (a, b) {
+//   console.log(a * b);
+// };
+
+// let mutipletwo = mutiple.bind(this, 6);
+// let mutpl3 = mutiple.bind(this, 6);
+
+// mutipletwo(5);
+// mutipletwo(2);
+
+// let coins = [1, 2, 5];
+// let target = 11;
+
+// // for (let i = 0; i < coins.length; i++) {
+// //   for (let j = 0; j < coins.length - 1; j++) {
+// //     if (coins[j] < coins[j + 1]) {
+// //       let tem = coins[j];
+// //       coins[j] = coins[j + 1];
+// //       coins[j + 1] = tem;
+// //     }
+// //   }
+// // }
+
+// coins.sort((a, b) => b - a);
+
+// let count = 0;
+
+// for (let coin of coins) {
+//   while (target >= coin) {
+//     target -= coin;
+//     count++;
+
+//     if (target === 0) {
+//       console.log(count);
+//       return;
+//     }
+//   }
+// }
+
+// function strRepat(str) {
+//   let freq = {};
+//   for (let i = 0; i <= str.length - 1; i++) {
+//     let ch = str[i];
+//     if (freq[ch]) {
+//       freq[ch]++;
+//     } else {
+//       freq[ch] = 1;
+//     }
+//   }
+//   return freq;
+// }
+
+// console.log(strRepat("programer"));
+
+// function reptedValues(str) {
+//   let freq = {};
+
+//   for (let ch of str) {
+//     freq[ch] = (freq[ch] || 0) + 1;
+//   }
+
+//   let char = "";
+//   let count = "";
+//   for (let key in freq) {
+//     if (freq[key]) char += key;
+//     count += freq[key];
+//   }
+
+//   return char + "-" + count;
+// }
+
+// console.log(reptedValues("abbccde"));
+
+// function freqReptVal(arr) {
+//   let freq = {};
+
+//   for (let num of arr) {
+//     freq[num] = (freq[num] || 0) + 1;
+//   }
+
+//   let unique = Object.keys(freq).map(Number);
+
+//   unique.sort((a, b) => {
+//     if (freq[b] !== freq[a]) {
+//       return freq[b] - freq[a];
+//     } else {
+//       return a - b;
+//     }
+//   });
+//   return unique;
+// }
+
+// console.log(freqReptVal([3, 2, 3, 3, 5, 2]));
