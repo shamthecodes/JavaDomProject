@@ -138,3 +138,19 @@
 // }
 
 // console.log(EvenOddIndex([9, 4, 2, 7, 5]));
+let arr1 = [121, 222, 323, 536];
+function isPalinArr(arr) {
+  for (let i = 0; i <= arr.length; i++) {
+    let tem = arr[i];
+    let rev = 0;
+    while (arr[i] != 0) {
+      let rem = arr[i] % 10;
+      rev = rev * 10 + rem;
+      arr[i] = Math.floor(arr[i] / 10);
+    }
+    if (tem === rev) {
+      console.log(tem + " is palin");
+    } else console.log(tem + " is not");
+  }
+}
+console.log(isPalinArr(arr1));
